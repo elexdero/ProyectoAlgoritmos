@@ -21,9 +21,8 @@
 ## Puntos a tomar en cuenta:
 
 - El numero de clientes es máximo de 20.
-- La cantidad de mascotas máxima que puede tener el cliente es de 5.
+- La cantidad de mascotas máxima que puede tener el cliente es de 20.
 - Se requiere validaciones y/o manejo de sentencia de errores dependiendo el tipo de variable.
-- Manejar la libreria <time.h> para la lectura de los horarios, ya que al generar la cita se requiere mostrar la fecha de entrada, hora (estimada) de la mascota.
 - El horario a tomar en cuenta de 9:00 a 17:00, se trabaja todos los días.
 - No se tiene permitido usar vectores y librerias que permitan realizar los métodos de busqueda y ordenamiento generadas por compilador.
 - Los métodos de busqueda y ordenamiento se tienen que realizar con funciones.
