@@ -993,7 +993,7 @@ void mostrarCitasOrdenadas() {
 void prueba(){
     // Cliente 1
     cli[0].idUser = 2712;
-    cli[0].name = "Jesus";
+    cli[0].name = "Jesus Emmanuel";
     cli[0].apPat = "Alonso";
     cli[0].apMat = "Piedras";
     cli[0].correo = "elexdero12@gmail.com";
@@ -1012,12 +1012,190 @@ void prueba(){
 
     // Cliente 2
     cli[1].idUser = generateID();
-    cli[1].name = "Mayra Concepción";
+    cli[1].name = "Mayra";
     cli[1].apPat = "Piedras";
-    cli[1].apMat = "Guerrero";
+    cli[1].apMat = "Guerrero\t";
     cli[1].correo = "may123@gmail.com";
-    cli[1].tel = "55667674635";
+    cli[1].tel = "5566767463";
     cli[1].direccion = "Soledad 8, 09510, CDMX";
+
+    //mascota 2
+    mas[1].name = "Rocko";
+    mas[1].raza = "Boxer";
+    mas[1].color = "Negro";
+    mas[1].edad = 4;
+    mas[1].peso = 15;
+    mas[1].altura = 0.90;
+    mas[1].genero = 'M';
+    mas[1].cli = &cli[1];
+    //mascota 3
+    mas[2].name = "Spark";
+    mas[2].raza = "Chihuahua";
+    mas[2].color = "Cafe";
+    mas[2].edad = 6;
+    mas[2].peso = 6;
+    mas[2].altura = 0.40;
+    mas[2].genero = 'H';
+    mas[2].cli = &cli[1];
+    
+    //cliente 3
+    cli[2].idUser = generateID();
+    cli[2].name = "emiliano";
+    cli[2].apPat = "Galindo";
+    cli[2].apMat = "Gonzalez";
+    cli[2].correo = "emi123@gmail.com";
+    cli[2].tel = "5566448810";
+    cli[2].direccion = "Canal de San Juan CDMX";
+
+    //mascota 4
+    mas[3].name = "Buzz";
+    mas[3].raza = "Maltes";
+    mas[3].color = "Miel";
+    mas[3].edad = 8;
+    mas[3].peso = 12;
+    mas[3].altura = 0.80;
+    mas[3].genero = 'M';
+    mas[3].cli = &cli[2];
+
+    //cliente 4
+    cli[3].idUser = generateID();
+    cli[3].name = "Sharon";
+    cli[3].apPat = "Perez";
+    cli[3].apMat = "Guerrero\t";
+    cli[3].correo = "sharon_medel123@gmail.com";
+    cli[3].tel = "5552126355";
+    cli[3].direccion = "Palmeras #256 CDMX";
+    //mascota 5
+    mas[4].name = "Skipper";
+    mas[4].raza = "";
+    mas[4].color = "Miel";
+    mas[4].edad = 8;
+    mas[4].peso = 12;
+    mas[4].altura = 0.80;
+    mas[4].genero = 'M';
+    mas[4].cli = &cli[3];
+
+    //mascota 6
+    mas[5].name = "Max";
+    mas[5].raza = "Labrador";
+    mas[5].color = "Negro";
+    mas[5].edad = 5;
+    mas[5].peso = 25.3;
+    mas[5].altura = 60.5;
+    mas[5].genero = 'M';
+    mas[5].cli = &cli[3];
+    
+
+    cli[5].idUser = generateID();
+    cli[5].name = "Carlos";
+    cli[5].apPat = "Ramírez";
+    cli[5].apMat = "López\t";
+    cli[5].correo = "carlos.ramirez@example.com";
+    cli[5].tel = "5551234567";
+    cli[5].direccion = "Av. Reforma 123, CDMX";
+    //mascota 7
+    mas[6].name = "Luna";
+    mas[6].raza = "Poodle";
+    mas[6].color = "Blanco";
+    mas[6].edad = 3;
+    mas[6].peso = 8.7;
+    mas[6].altura = 50;
+    mas[6].genero = 'H';
+    mas[6].cli = &cli[5];
+
+    cli[6].idUser = generateID();
+    cli[6].name = "Lucía";
+    cli[6].apPat = "Martínez";
+    cli[6].apMat = "Cruz\t";
+    cli[6].correo = "lucia.martinez@example.com";
+    cli[6].tel = "5567894321";
+    cli[6].direccion = "Calle Hidalgo 55, CDMX";
+    //mascota 8
+    mas[7].name = "Rocky";
+    mas[7].raza = "Bulldog Francés";
+    mas[7].color = "Atigrado";
+    mas[7].edad = 4;
+    mas[7].peso = 12.5;
+    mas[7].altura = 32;
+    mas[7].genero = 'M';
+    mas[7].cli = &cli[6];
+
+    cli[7].idUser = generateID();
+    cli[7].name = "Andrés";
+    cli[7].apPat = "Hernández";
+    cli[7].apMat = "Gómez";
+    cli[7].correo = "andres.hg@example.com";
+    cli[7].tel = "5553332211";
+    cli[7].direccion = "Col. Del Valle #78, CDMX";
+    //mascota 9
+    mas[8].name = "Nina";
+    mas[8].raza = "Beagle";
+    mas[8].color = "Tricoor";
+    mas[8].edad = 2;
+    mas[8].peso = 10.5;
+    mas[8].altura = 40;
+    mas[8].genero = 'H';
+    mas[8].cli = &cli[7];
+
+
+    cli[8].idUser = generateID();
+    cli[8].name = "Valeria";
+    cli[8].apPat = "Torres";
+    cli[8].apMat = "Jiménez\t";
+    cli[8].correo = "valeria.tj@example.com";
+    cli[8].tel = "5544556677";
+    cli[8].direccion = "Insurgentes Sur 890, CDMX";
+
+    cli[9].idUser = generateID();
+    cli[9].name = "Daniel";
+    cli[9].apPat = "Sánchez";
+    cli[9].apMat = "Moreno\t";
+    cli[9].correo = "daniel.sanchez@example.com";
+    cli[9].tel = "5588994455";
+    cli[9].direccion = "Eje 6 Sur 66, Iztapalapa, CDMX";
+    //mascota 10
+    mas[9].name = "Simba";
+    mas[9].raza = "Golden Retriever";   
+    mas[9].color = "Dorado";
+    mas[9].edad = 6;
+    mas[9].peso = 30.0;
+    mas[9].altura = 65.5;
+    mas[9].genero = 'M';
+    mas[9].cli = &cli[9];
+
+    cli[10].idUser = generateID();
+    cli[10].name = "Alejandro";
+    cli[10].apPat = "Perez";
+    cli[10].apMat = "Hernandez";
+    cli[10].correo = "ale123@gmail.com";
+    cli[10].tel = "5552126355";
+    cli[10].direccion = "Bugambilias #256 CDMX";
+
+    cli[11].idUser = generateID();
+    cli[11].name = "Emilio";
+    cli[11].apPat = "Galván";
+    cli[11].apMat = "Vargas\t";
+    cli[11].correo = "emilio.galvan@example.com";
+    cli[11].tel = "5566778899";
+    cli[11].direccion = "Pino Suárez 321, CDMX";
+
+    cli[12].idUser = generateID();
+    cli[12].name = "Alejandra";
+    cli[12].apPat = "Flores";
+    cli[12].apMat = "Ruiz\tx";
+    cli[12].correo = "ale.flores@example.com";
+    cli[12].tel = "5599887766";
+    cli[12].direccion = "Roma Norte #102, CDMX";
+    //mascota11
+    mas[10].name = "Thor";
+    mas[10].raza = "Husky Siberiano";
+    mas[10].color = "Gris y blanco";
+    mas[10].edad = 5;
+    mas[10].peso = 28.4;
+    mas[10].altura = 60.0;
+    mas[10].genero = 'M';
+    mas[10].cli = &cli[12];
+
 }
 
 int generateID(){
